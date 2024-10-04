@@ -267,7 +267,7 @@ countryList.forEach((country) => {
   terms.push({ score: 0, member: term + "*" });
 
   const populateDb = async () => {
-    //@ts-expect-error
+    //@ts-expect-error This is expected because the type is not compatible
     await redis.zadd("terms", ...terms);
   };
 
