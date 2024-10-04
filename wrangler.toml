@@ -1,0 +1,6 @@
+name = "fastapi"
+compatibility_date="2024-10-04"
+
+[vars]
+UPSTASH_REDIS_REST_URL = "https://fancy-mustang-26477.upstash.io"
+UPSTASH_REDIS_REST_TOKEN = "AWdtAAIjcDE2MGYxYjdjMmUzNzI0ZmExYjRhMzE0ZDYyOTE4ZTRjN3AxMA"
