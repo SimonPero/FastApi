@@ -267,7 +267,7 @@ countryList.forEach((country) => {
   terms.push({ score: 0, member: term + "*" });
 
   const populateDb = async () => {
-    // @ts-expect-error The redis.zadd method expects a different type signature, but this usage is correct for our use case
+    // @ts-expect-error: The redis.zadd method expects a different type signature, but this usage is correct for our use case
     await redis.zadd("terms", ...terms);
   };
 
